@@ -1,0 +1,70 @@
+body {
+    font-family:'Segoe UI',sans-serif;
+    margin: 0;
+    background: black;
+    color: white;
+}
+header {
+    background: linear-gradient(to right, green, red);
+    text-align: center;
+    padding: 3em 1em;
+}
+
+header h1{
+    font-size: 3em;
+    color: aqua;
+}
+
+header h2{
+    font-size: 2em;
+    color: blue;
+}
+
+header p{
+    font-size: 1.2em;
+    color: orange;
+}
+
+header button{
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    background-color: brown;
+    color: violet;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: yellow;
+}
+
+#features {
+    padding: 2em;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.feature{
+    background: red;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 1.5em;
+    width: 250px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: black;
+    font-size: 0.9em;
+}
